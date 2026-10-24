@@ -158,6 +158,7 @@ ul {
   display: flex;
   justify-content: space-between;
   gap: 32px;
+  line-height: 1;
 }
 
 .header-icon:hover {
@@ -439,6 +440,12 @@ ul {
 .address-list,
 .address-info {
   flex-basis: 50%;
+}
+
+.address-icons {
+  display: flex;
+  gap: 24px;
+  line-height: 1;
 }
 
 .address-icon {
